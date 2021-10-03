@@ -117,7 +117,7 @@
   /* Showcase */
   .showcase {
     background: url("../img/showcase.jpg") no-repeat center center/cover;
-    height: 60rem;
+    height: 68rem;
   }
 
   .showcase .showcase-content {
@@ -182,5 +182,14 @@
     color: #fff;
     padding: 10px;
   }
-  /*  */
+  
+  .footer-others {
+    padding: 30px 0px;
+  }
+
+  footer-others {
+    padding: 60px 0px;
+    background-color: #000;
+  }
+
 }

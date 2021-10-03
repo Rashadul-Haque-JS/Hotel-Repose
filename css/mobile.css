@@ -178,4 +178,10 @@
         color: #fff;
         padding: 10px;
       }
+
+
+      .footer-others {
+        padding: 100px 0px;
+        background-color: #000;
+      }
 }
