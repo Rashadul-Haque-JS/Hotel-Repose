@@ -1,0 +1,181 @@
+
+
+@media only screen and (max-width: 540px){
+    * {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      
+      
+      html,body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.5rem;
+        background-color:#f7c08a;
+        width: 100%;
+      }
+      
+      a {
+        color:#f7c08a;
+        text-decoration: none;
+      }
+      
+      h1, h2, h3 {
+        padding-bottom: 20px;
+      }
+      
+      p {
+        margin: 10px 0;
+      }
+      
+      /* Utility Classes */
+
+      body header, main,footer{
+        width: 100%;
+      }
+
+      .logo {
+        text-align: center;
+        background-color: #333;
+        font-size: 1.5rem;
+        padding: 20px 0px;
+   
+        
+      }
+      .showcase-box {
+        margin: auto;
+        max-width: 1100px;
+        overflow: auto;
+        padding: 0 20px;
+      }
+      
+      .primary-text {
+        color:#333;
+      }
+      
+      span {
+        color: #f7c08a;
+      }
+      .btn {
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        background: #333;
+        padding: 2px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background: #f7c08a;
+        color: #333;
+      }
+      
+      .btn-light {
+        background: #f4f4f4;
+        color: #333;
+      }
+      
+      .bg-dark {
+        background: #333;
+        color: #fff;
+      }
+      
+      /* navigation-bar */
+      .navigation-bar {
+        background: #f7c08a;
+        
+      }
+      .navigation-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .navigation-bar ul li {
+        list-style-type: none;
+      }
+
+      
+      .navigation-bar a {
+        color:#333;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      
+      
+      .navigation-bar ul li a:hover, 
+      .navigation-bar ul li a.current {
+        background: #444;
+        color: #f7c08a;
+      }
+      
+      /* Showcase */
+      .showcase {
+        background: url('../img/showcase.jpg') no-repeat center center/cover;
+        height: 700px;
+      }
+      
+      .showcase .showcase-content {
+        color: #fff;
+        text-align: center;
+        padding-top: 120px;
+      }
+      
+      .showcase .showcase-content h1 {
+        font-size: 2.5rem;
+        line-height: 1.4em;
+      }
+      
+      .showcase .showcase-content p {
+        padding-bottom: 20px;
+        line-height: 1.7em;
+      }
+      
+      /* main Info */
+      
+      .main-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        grid-row-gap: 15px;
+        overflow: hidden;
+      }
+      
+      .info-content {
+        background-color: #333;
+        color: #fff;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+       
+      }
+
+      .info-content h2 {
+        margin-top: 20px;
+      }
+      
+      .info-content p {
+        margin: 5px 50px;
+      }
+      
+      
+      .features img {
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      
+      }
+      
+      /* Footer */
+      .main-footer {
+        text-align: center;
+        background: #444;
+        color: #fff;
+        padding: 10px;
+      }
+}
